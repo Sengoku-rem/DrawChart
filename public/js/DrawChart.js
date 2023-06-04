@@ -24,11 +24,12 @@ function Main() {
       labels: labels,    // x軸のラベル
       datasets: [  // グラフごとにオブジェクトを定義する
         {
-          label: "data1",
+          label: "data.001_cat",
           data: dataArray,
-          borderWidth: 2,    // 線の太さ
+          borderWidth: 3,    // 線の太さ
           borderColor: "rgba(0, 100, 0, 0.5)",    // 線の色
-          fill: false   // 線の下の領域塗り潰しなし
+          fill: "rgba(0, 100, 0, 0.5)"
+          //fill: false   // 線の下の領域塗り潰しなし
         }
       ]
     },
